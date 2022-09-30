@@ -1,8 +1,8 @@
 git fetch github
 git pull github master
 
-git fetch origin
-git pull origin master
+git fetch bitbucket
+git pull bitbucket master
 
-git push origin master
+git push bitbucket master
 git push github master
