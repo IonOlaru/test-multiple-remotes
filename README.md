@@ -17,17 +17,23 @@ bitbucket	git@bitbucket.org:iolaru/test-multiple-remotes.git (push)
 github	git@github.com:IonOlaru/test-multiple-remotes.git (fetch)
 github	git@github.com:IonOlaru/test-multiple-remotes.git (push)
 ```
-5. Commit some code into the
+5. Commit some code 
 ```bash
 echo | date >> ./text.txt
+```
+6. Commit all changes  
+```bash
 git add -A
 git commit -m 'another random commit' 
 ```
-6. Push the code into one of the remotes
+7. Push the code into one of the remotes
 ```bash
 git push bitbucket master
 ```
-7. Sync remotes
+8. Sync remotes
 ```bash
 ./sync.sh
 ```
+
+### Repeat 
+Repeat steps `5-8` until you discover the meaning of life, or untill you can answer the question **Why are we here?**  
