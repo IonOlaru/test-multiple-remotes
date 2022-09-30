@@ -36,4 +36,17 @@ git push bitbucket master
 ```
 
 ### Repeat 
-Repeat steps `5-8` until you discover the meaning of life, or untill you can answer the question **Why are we here?**  
+Repeat steps `5-8` until you discover the meaning of life, or until you can answer the question **Why are we here?**  
+
+### Sync file
+Create the sync file `sync.sh`
+```bash
+git fetch github
+git pull github master
+
+git fetch bitbucket
+git pull bitbucket master
+
+git push bitbucket master
+git push github master
+```
