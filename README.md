@@ -20,7 +20,7 @@ github	git@github.com:IonOlaru/test-multiple-remotes.git (push)
 5. Commit some code into the
 ```bash
 echo | date >> ./text.txt
-git add ./text.txt ./README.md ./sync.sh
+git add -A
 git commit -m 'another random commit' 
 ```
 6. Push the code into one of the remotes
