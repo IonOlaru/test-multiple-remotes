@@ -50,3 +50,11 @@ git pull bitbucket master
 git push bitbucket master
 git push github master
 ```
+
+### Automation
+When teh whole flow is in place the code sync eventually will become a 1 liner like this
+
+*This is the exact line I run to add this last change :)*
+```bash
+git add -A && git commit -m 'another random commit' && git push bitbucket master && ./sync.sh
+```
