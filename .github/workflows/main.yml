@@ -16,4 +16,4 @@ jobs:
 
     - name: Set variables
       run: |
-        echo ${{ secrets.SECRET_VARIABLE_01 }}
+        echo SECRET_NAME_01=${{ secrets.SECRET_NAME_01 }}
